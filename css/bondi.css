@@ -16,6 +16,8 @@ body {
   padding: 0.5rem 1rem;
   border: 2px solid var(--red);
   font-weight: 600;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -34,6 +36,8 @@ body {
   background-color: var(--green);
   bottom: -20px;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -58,6 +62,8 @@ body {
 .navbar .search svg {
   color: var(--green);
   cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -73,6 +79,7 @@ body {
 }
 
 .navbar .navbar-toggler:focus {
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -144,16 +151,28 @@ body {
   color: white;
   width: calc(100% - 10px);
   height: calc(100% - 10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-weight: bold;
   font-size: 1.5rem;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
+  -webkit-transform: translateX(calc(-100% - 5px));
+  -ms-transform: translateX(calc(-100% - 5px));
   transform: translateX(calc(-100% - 5px));
 }
 
 .our-work .box:hover::before {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
   transform: translateX(0);
 }
 
@@ -201,6 +220,22 @@ body {
   outline: none;
 }
 
+.subscribe input[type="email"]::-webkit-input-placeholder {
+  color: white;
+}
+
+.subscribe input[type="email"]::-moz-placeholder {
+  color: white;
+}
+
+.subscribe input[type="email"]:-ms-input-placeholder {
+  color: white;
+}
+
+.subscribe input[type="email"]::-ms-input-placeholder {
+  color: white;
+}
+
 .subscribe input[type="email"]::placeholder {
   color: white;
 }
@@ -230,6 +265,8 @@ body {
 
 .footer .links li {
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -244,6 +281,8 @@ body {
 
 .footer a {
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -269,6 +308,8 @@ body {
 
 @media (max-width: 768px) {
   .footer .contact ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 }
