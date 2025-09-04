@@ -1,4 +1,4 @@
-# 🌊 Bondi Landing Page  
+# Bondi
 A modern **Bootstrap 5** landing page template with **Roboto** font, **Font Awesome** icons, portfolio filtering using **Vanilla JavaScript**, and clean CSS effects.  
 
 Try it Yourself: [Bondi](https://mahmoudbadrali.github.io/Bondi/)
@@ -70,6 +70,7 @@ project-root/
 │  ├─ work-07.jpg
 │  └─ work-08.jpg
 └─ README.md
+```
 
 ---
 
@@ -95,10 +96,9 @@ project-root/
 
 ---
 
-📜 License
-
-This project is free to use for learning and personal projects.
-You can adapt, modify, and deploy it without restrictions.
+## 📜 License  
+This project is **free to use** for learning and personal projects.  
+You are free to **adapt, modify, and deploy** it without restrictions.  
 
 ---
 
